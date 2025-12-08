@@ -10,7 +10,7 @@ const app = express()
 app.use(express.json())
 app.use(cookie_parser())
 app.use(cors({
-  origin:["http://localhost:5173"],
+  origin:["http://localhost:5173" ,"https://samosapoint.netlify.app/"],
   credentials:true
 }))
 
