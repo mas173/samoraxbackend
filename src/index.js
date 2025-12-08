@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(cookie_parser())
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://samosapoint.netlify.app"],
+    origin: ["http://localhost:5173", "https://samorax.netlify.app/"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
