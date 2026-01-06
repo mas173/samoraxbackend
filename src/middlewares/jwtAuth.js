@@ -4,6 +4,7 @@ const Admin_schema = require("../models/Admin.schema");
 const jwtAuth = async (req, resizeBy, next) => {
   try {
     const token = req.cookies?.samorax_jwt;
+    // console.log("req received")
 
   if (!token) {
     return resizeBy
